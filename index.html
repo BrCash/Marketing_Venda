@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <!-- tirar a barra de rolagem em dispositivos mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="imagem/png" href=".png">
+    <script>
+        let valor=0
+        let valor1=2
+        chamar()
+        function chamar(){
+            setTimeout(()=> Trocar(),8500)
+
+        }
+        function Trocar(){
+            if(valor1>valor){
+                document.getElementById("imagem").src="file:///C:/Users/joaog/OneDrive/%C3%81rea%20de%20Trabalho/cop/mk.jpg"
+                // document.getElementById("imagem").style.width=`${366}px`
+                // document.getElementById("imagem").style.height=`${235}px`
+                
+                valor+=2
+                chamar()
+            }
+            else{
+                document.getElementById("imagem").src="file:///C:/Users/joaog/OneDrive/%C3%81rea%20de%20Trabalho/cop/ilustracao.jpeg"
+                valor1+=2
+                chamar()
+            }
+         
+        }
+            function Mostrar(){
+                let a1=document.querySelector('.areacont')
+                a1.style.display="block"
+            }
+    </script>
+</head>
+<body style="background-color: white;">
+    <div class="row">
+        <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <h3 class="title">Treinamento de <span class="spam">Marketing Digital</span>  e <span class="spam">Vendas Online</span> Iniciantes e Avançados</h3>
+                           </div>
+                </div>
+                <div class="col-lg-4">
+           
+                </div>
+
+ 
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="d-flex justify-content-center">
+
+        <div class="area1 ml-1 mr-1 mt-2">
+            <div class="d-flex justify-content-center">
+
+            <h4 class="textG ml-1 mr-1 mt-1">Uma pesquisa do Google mostrou que as vendas por e-commerce irão dobrar em cinco anos, chegando a R$85 bilhões.E você vai ficar para trás?</h4>
+        </div>
+
+    </div>
+    </div>
+    <div class="d-flex justify-content-center">
+
+        <div class="area1 ml-1 mr-1 mt-2">
+            <div class="d-flex justify-content-center">
+
+            <h4 class="textG ml-1 mr-1 mt-1">A eMarketers divulgou uma pesquisa revelando que o investimento em publicidade online, ou marketing digital,no Brasil, segundo a IAB Brasil, o marketing digital chegará a R$ 5 bilhões em 2019, crescendo cerca de 12% ao ano até 2021.</h4>
+        </div>
+
+    </div>
+    </div>
+</div>
+    <div class="col-lg-4">
+        <div class="d-flex justify-content-center">
+
+        <img id="imagem"  src="ilustracao.jpeg" class="imgilus ml-4 mr-4 mt-2">
+        </div>
+        <div class="d-flex justify-content-center">
+            <a  href="https://sun.eduzz.com/383261?a=20956245" class="btnProdutos mt-2">Comprar</a>
+        </div>
+        <div class="d-flex justify-content-center">
+
+            <div class="area2 ml-1 mr-1 mt-2">
+                <div class="d-flex justify-content-center">
+    
+                <h4 class="textG ml-1 mr-1 mt-1">O FDM conta com mais de 100 aulas práticas divididas em módulos num PASSO A PASSO que tem como objetivo ensinar pessoas comuns a iniciar no Mercado Digital.</h4>
+            </div>
+    
+        </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="d-flex justify-content-center">
+
+            <div class="area1 ml-1 mr-1 mt-2">
+                <div class="d-flex justify-content-center">
+    
+                <h4 class="textG ml-1 mr-1 mt-1">Hoje, quando as pessoas pensam em comprar algo, elas pesquisam em ferramentas de busca através da internet e, ao digitar o que se quer, aparecem as opções de empresas que vendem aquilo que se busca. Isso significa que as decisões de compra estão somente em quem está online: se você não está, dificilmente será uma opção, logo, não será encontrado.</h4>
+            </div>
+    
+        </div>
+        </div>
+        
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4">
+        <div class="d-flex justify-content-center">
+            <div class="areaConteudo mt-2 mb-2">
+                <div class="d-flex justify-content-center">
+
+                <a href="#conteudo" onclick="Mostrar()" class="a1" >Quais Principais Conteúdos?</a>
+</div>
+            </div>
+</div>        
+<div class="d-flex justify-content-center">
+
+<div id="conteudo" class="areacont mb-5">
+    <div class="d-flex justify-content-center">
+
+    <h4 class="textG ml-1 mr-1 mt-1">Como desenvolver uma mentalidade empreendedora</h4>
+    </div>
+    <div class="d-flex justify-content-center">
+
+        <h4 class="textG ml-1 mr-1 mt-1">Como se cadastrar nas plataformas de venda</h4>
+        </div>
+        <div class="d-flex justify-content-center">
+
+            <h4 class="textG ml-1 mr-1 mt-1">Como gerar tráfego nas principais redes sociais e conseguir clientes</h4>
+            </div>
+            <div class="d-flex justify-content-center">
+
+                <h4 class="textG ml-1 mr-1 mt-1">Como montar uma estrutura básica de vendas nas redes sociais</h4>
+                </div>
+                <div class="d-flex justify-content-center">
+
+                    <h4 class="textG ml-1 mr-1 mt-1">Como criar um canal e posicionar bem seus vídeos no YouTube</h4>
+                    </div>
+                    <div class="d-flex justify-content-center">
+
+                        <h4 class="textG ml-1 mr-1 mt-1">Como chamar a atenção do seu público no YouTube</h4>
+                        </div>
+                        <div class="d-flex justify-content-center">
+
+                            <h4 class="textG ml-1 mr-1 mt-1">Como desenvolver a persuasão para conversar com seus clientes</h4>
+                            </div>
+                            <div class="d-flex justify-content-center">
+
+                                <h4 class="textG ml-1 mr-1 mt-1">Como criar campanhas profissionais usando Facebook Ads e muito mais!</h4>
+                                </div>
+                                <div class="d-flex justify-content-center">
+
+                                    <h4 class="textG2 ml-1 mr-1 mt-1">Essa é a sua hora de virar!🌎🚀</h4>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+
+                                    <a  href="https://sun.eduzz.com/383261?a=20956245" class="btnProdutos mt-2 mb-2">Comprar</a>
+
+</div>
+</div>
+</div>
+    </div>
+    <div class="col-lg-4"></div>
+
+</div>
+  
+</body>
+</html>
